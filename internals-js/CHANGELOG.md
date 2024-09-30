@@ -1,5 +1,11 @@
 # CHANGELOG for `@apollo/federation-internals`
 
+## 2.9.3
+
+### Patch Changes
+
+- Fix fragment generation recursion logic to apply minification on all subselections. ([#3158](https://github.com/apollographql/federation/pull/3158))
+
 ## 2.9.2
 
 ### Patch Changes
